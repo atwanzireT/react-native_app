@@ -11,7 +11,7 @@ export default function App() {
     <SafeAreaView style ={styles.container}>
       <NavigationContainer>
         <Stack.Navigator> 
-          <Stack.Screen name='home' component={Home} />
+          <Stack.Screen name='home' component={Home} options ={{title : "Home Navigation"}} />
           <Stack.Screen name='detail' component={Detail} />
         </Stack.Navigator>
       </NavigationContainer>
